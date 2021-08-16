@@ -27,7 +27,7 @@ class BotManController extends Controller
     $config = [
         // Your driver-specific configuration
         "telegram" => [
-           "token" => "1703844438:AAGXzBSnnfZRF9JoW6mlKStCLj0is5StAio"
+           "token" => \\API_TOKEN
         ],
         'user_cache_time' => 30000 ,
         'talk_cache_time' => 30000 ,
